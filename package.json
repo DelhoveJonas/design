@@ -1,6 +1,6 @@
 {
-  "name": "test-package",
-  "version": "3.1.1",
+  "name": "jonasdesignsysteem",
+  "version": "3.1.2",
   "description": "First version",
   "main": "index.js",
   "dependencies": {
