@@ -10,9 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/DelhoveJonas/design.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "release-it": "^7.4.7"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it",
+    "build": "sass --watch infrabel/scss/basics/infrabel.scss:infrabel/final-css/infrabel.css"
   },
   "author": "Jonas Delhove",
   "license": "ISC",
